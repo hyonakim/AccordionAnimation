@@ -1,0 +1,39 @@
+$turqColor: #49AEC0;
+$orangeColor: #FE5A27;
+$fontColor: #fff;
+$fontStyle: 'Lato', sans-serif;
+
+.container {
+  width: 800px;
+  margin: 40px 40px 0 203px;
+  border-top: none;
+
+  .head {
+    color: $fontColor;
+    font-family: $fontStyle;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: $turqColor;
+    margin: 0;
+    border: 1px solid #F4EFF0;
+    border-radius: 5px;
+ }
+}
+
+
+.para {
+  height: 200px;
+  margin: 20px 20px 0 20px;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.closePara {
+  height: 0px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
